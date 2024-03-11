@@ -5,6 +5,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 public class NewTest {
     @Test
     void newTest() {
-        assertTrue(3 > 2);
+        int i = 3;
+        assertTrue(i > 2);
     }
 }
